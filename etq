@@ -1,0 +1,136 @@
+[33mcommit df73e1b8edc4a2992732e28bbd2fd323068cac11[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Thu Sep 22 17:17:04 2016 -0700
+
+    Revert "got album data on page"
+    
+    This reverts commit 5817740814d44ec11bd34bfa87c4206557c7cbea.
+
+[33mcommit 5817740814d44ec11bd34bfa87c4206557c7cbea[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Thu Sep 22 17:16:41 2016 -0700
+
+    got album data on page
+
+[33mcommit 4ae4962780047f4ba3e54527f37e33493834fc3b[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Thu Sep 22 09:25:45 2016 -0700
+
+    Why is dist/ un tracked?
+
+[33mcommit 423bd4c42dd5ed4df75377d98dfeb902cdcbc0cc[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Thu Sep 22 09:21:17 2016 -0700
+
+    Fixing icons for heroku pt2
+
+[33mcommit e52491af7ec89d40c0feaa9815891c99228d3742[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Thu Sep 22 09:19:13 2016 -0700
+
+    Fixed icons/fonts for heroku
+
+[33mcommit 693e2218c9e19b9c5669576df68d347a27192733[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Thu Sep 22 09:11:24 2016 -0700
+
+    Checkpoint 5: Controllers
+
+[33mcommit 4992161a0dded2b3c8d1188037b85f1cbd343700[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Tue Sep 20 18:35:37 2016 -0700
+
+    Checkpoint 4: Templates
+
+[33mcommit 5033b17306cfdb8e4230a2997f76e53d8311d052[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Mon Sep 19 17:57:39 2016 -0700
+
+    Checkpoint 3: Assignment
+
+[33mcommit 1c0631f35f1ebb3958089a36512bb91f70862153[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Mon Sep 19 17:45:14 2016 -0700
+
+    Checkpoint 3: Routing and States
+
+[33mcommit 082992d1f2d43e2894f44bb5cb81a52318573b45[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Sun Sep 18 14:03:33 2016 -0700
+
+    Checkpoint 2: Configuration (Assignment)
+
+[33mcommit d84eabcafcd618b2476314463a072b75920a75e4[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Sun Sep 18 13:49:37 2016 -0700
+
+    Checkpoint 2: Configuration
+
+[33mcommit 03d4d6f09a60cb3f67bd469bf2428cf68f3c147d[m
+Author: Mallory Robertson <mallory@mal.works>
+Date:   Sun Sep 18 13:39:01 2016 -0700
+
+    first commit
+
+[33mcommit a12f2ff60315cb876f9f228a7da564578c565295[m
+Merge: e59ac8b 0f7f94a
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Wed Feb 24 13:01:41 2016 -0800
+
+    Merge pull request #15 from Bloc/keep-hapi-consistent
+    
+    keep hapi within minor version range
+
+[33mcommit 0f7f94a365136c0eef5260bb2221d007ca95cc14[m
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Wed Feb 24 12:59:06 2016 -0800
+
+    keep hapi within minor version range
+
+[33mcommit e59ac8b8adb2e700a25af5e9b6ada642da98d3e2[m
+Merge: d2805e8 2205778
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Sun Sep 13 14:04:17 2015 -0700
+
+    Merge pull request #2 from Bloc/fix-directory-paths
+    
+    updated directory paths in index.html to match new directory names
+
+[33mcommit 2205778c606d8c2a8684524a72ab1c7e18dc7f96[m
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Sun Sep 13 14:04:04 2015 -0700
+
+    updated directory paths in index.html to match new directory names
+
+[33mcommit d2805e82ca8bf81b24eb4a6382bff90a7c7fd68a[m
+Merge: fa2875c d64e46c
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Mon Jul 6 18:10:43 2015 -0700
+
+    Merge pull request #1 from Bloc/compatible-directory-names
+    
+    updated gruntfile, server.js, and README to make them more similar to structure detailed in Bloc Jams app during foundation
+
+[33mcommit d64e46c4649cca25be082aee04ecca70b401e8d5[m
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Mon Jul 6 18:09:16 2015 -0700
+
+    updated gruntfile, server.js, and README to make them more compatible with routes and file structures in the foundation
+
+[33mcommit 71777409ef6b5edb96c60a7f78978908837bf222[m
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Mon Jul 6 16:22:00 2015 -0700
+
+    changed images from images directory to assets/images. updated README and Gruntfile to handle files in assets directory. changed name of css folder to .
+
+[33mcommit fa2875ca6c0da691f488e5668979d743ee3a4353[m
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Wed Jul 1 17:59:26 2015 -0700
+
+    updated README for the running applications in the new roadmap
+
+[33mcommit fe8902f519931de6cc3c27a0d18729c89b61654e[m
+Author: Joe Lipper <lipperjj@gmail.com>
+Date:   Wed Jul 1 16:54:45 2015 -0700
+
+    pasted README from base-frontend-project
