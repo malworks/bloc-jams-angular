@@ -1,5 +1,7 @@
-(function LandingCtrl() {
-	this.heroTitle = "Turn the Music Up!";
+(function() {
+
+	function LandingCtrl() {
+		this.heroTitle = "Turn the Music Up!";
 }
 
 	angular
