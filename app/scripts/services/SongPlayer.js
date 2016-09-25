@@ -34,8 +34,7 @@
  	SongPlayer.play = function(song) {
 			if (currentSong !== song) {
 				setSong(song);
-				currentBuzzObject.play();
-				song.playing = true;
+				playSong();
 			} else if (currentSong === song) {
 						if (currentBuzzObject.isPaused()) {
 							currentBuzzObject.play;
@@ -49,6 +48,11 @@
  	};
         return SongPlayer;
     };
+
+    var playSong = function() {
+    	currentBuzzObject.play();
+    	song.playing = true;
+    }
  
     angular
         .module('blocJams')
