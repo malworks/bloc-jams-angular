@@ -22,7 +22,7 @@
 			artist: "Guglielmo Marconi",
 			label: "EM",
 			year: "1909",
-			albumArtUrl: "/assets/images/album_covers/20.png",
+			albumArtUrl: "/assets/images/album_covers/02.png",
 			songs: [
 				{ title: "Hello, Operator?", duration: "1:01" },
 		        { title: "Ring, ring, ring", duration: "5:01" },
@@ -32,23 +32,38 @@
 		    ]
 		};
 
-		Fixtures.getAlbum = function() {
-			return albumPicasso;
+		var albumDuchamp = {
+			title: "Fountain",
+			artist: "Marcel Duchamp",
+			label: "Dada",
+			year: "1887",
+			albumArtUrl: "assets/images/album_covers/03.png",
+			songs: [
+				{ title: "Waterways", duration: "3:01" },
+		        { title: "Don't throw Quarters", duration: "5:21" },
+		        { title: "Liquid Blue", duration: "2:01"},
+		        { title: "Fontaine", duration: "4:54" },
+		        { title: "Eau", duration: "2:25"}
+		     ]
 		};
 
-		Fixtures.getCollection = function(numberOfAlbums) {
-			var albums = [];
+        Fixtures.getAlbum = function() {
+            return albumDuchamp;  
+        };
+        
+        Fixtures.getCollection = function(numberOfAlbums) {
+            var albums = [];
             for (var i = 0; i < numberOfAlbums; i++){
                 albums.push(albumPicasso);
             }
             return albums;
-		};
-
+        };
+        
         return Fixtures;
     }
- 
+    
     angular
         .module('blocJams')
         .factory('Fixtures', Fixtures);
- })();
+})();
 

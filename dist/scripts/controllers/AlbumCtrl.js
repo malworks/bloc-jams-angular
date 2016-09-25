@@ -3,7 +3,7 @@
     
         this.albumData = Fixtures.getAlbum();
      	
-    }
+    };
  
      angular
          .module('blocJams')
