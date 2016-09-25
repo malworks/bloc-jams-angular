@@ -48,7 +48,7 @@
 		};
 
         Fixtures.getAlbum = function() {
-            return albumDuchamp;  
+            return albumPicasso;  
         };
         
         Fixtures.getCollection = function(numberOfAlbums) {
