@@ -33,6 +33,9 @@
             });
 
             SongPlayer.currentSong = song;
+            SongPlayer.currentSongTitle = currentAlbum.songs[getSongIndex(song)].title;
+            SongPlayer.currentSongArtist = currentAlbum.artist;
+			SongPlayer.currentSongTotalTime = currentAlbum.songs[getSongIndex(song)].duration;
 
         };
 
@@ -137,6 +140,8 @@
 
         return SongPlayer;
     }
+
+
 
     angular
         .module('blocJams')
