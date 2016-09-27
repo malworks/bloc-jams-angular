@@ -82,6 +82,7 @@
         * @param {Obj} song
         */
         SongPlayer.play = function(song) {
+            console.log("Play was called")
             song = song || SongPlayer.currentSong;
             if (SongPlayer.currentSong !== song){
                 setSong(song);
