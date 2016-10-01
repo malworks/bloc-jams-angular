@@ -15,6 +15,8 @@
 
         var currentBuzzObject = null;
 
+        SongPlayer.volume = 80;
+
          /*
          * @function setSong
          * @desc Starts first song or stop current song and starts a new one
@@ -146,19 +148,26 @@
             }
         };
 
-        return SongPlayer;
-    }
-
         /**
          * @function setCurrentTime
          * @desc Set current time (in seconds) of currently playing song
          * @param {Number} time
          */
-         SongPlayer.setCurrentTime = function(time) {
+        SongPlayer.setCurrentTime = function(time) {
             if (currentBuzzObject) {
                 currentBuzzObject.setTime(time);
             }
         };
+
+        SongPlayer.setVolume = function(volume) {
+            if (currentBuzzObject) {
+                currentBuzzObject.setVolume(volume)
+            }
+            SongPlayer.volume = volume;
+        }
+
+        return SongPlayer;
+    }
 
     angular
         .module('blocJams')
