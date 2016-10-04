@@ -39,10 +39,15 @@
                 autoplay: true
             });
 
+            var roundNumber = function(time) {
+                Math.round(time);
+                return time;
+            }
+
             currentBuzzObject.bind('timeupdate', function() {
-                console.log(song.duration - 0.03);
-                console.log(SongPlayer.currentTime);
-               if (SongPlayer.currentTime === song.duration - 0.03) {
+                console.log(roundNumber(song.duration));
+                console.log(roundNumber(SongPlayer.currentTime));
+               if (SongPlayer.currentTime === song.duration) {
                     console.log("ughhhhhh")
                     SongPlayer.next();
                 }   
@@ -129,8 +134,6 @@
         * @param {Obj} song
         */
         SongPlayer.play = function(song) {
-            console.log("Play was called")
-            console.log(song.duration);
             song = song || SongPlayer.currentSong;
             if (SongPlayer.currentSong !== song){
                 setSong(song);

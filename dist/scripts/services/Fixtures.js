@@ -9,11 +9,11 @@
 			year: "1881",
 			albumArtUrl: "/assets/images/album_covers/01.png",
 			songs: [
-				{ title: "Blue", duration: 161.71, audioUrl: '/assets/music/picasso/blue' },
-				{ title: "Green", duration: 103.96, audioUrl: '/assets/music/picasso/green' },
-				{ title: "Red", duration: 268.45, audioUrl: '/assets/music/picasso/red' },
-				{ title: "Pink", duration: 153.14, audioUrl: '/assets/music/picasso/pink' },
-				{ title: "Magenta", duration: 374.22, audioUrl: '/assets/music/picasso/magenta' }
+				{ title: "Blue", duration: 161.68, audioUrl: '/assets/music/picasso/blue' },
+				{ title: "Green", duration: 103.93, audioUrl: '/assets/music/picasso/green' },
+				{ title: "Red", duration: 268.42, audioUrl: '/assets/music/picasso/red' },
+				{ title: "Pink", duration: 153.11, audioUrl: '/assets/music/picasso/pink' },
+				{ title: "Magenta", duration: 374.18, audioUrl: '/assets/music/picasso/magenta' }
 			]
 		};
 
